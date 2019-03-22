@@ -6,7 +6,6 @@ import router from './router';
 import stores from './stores/index';
 
 class App extends Component {
-
   render() {
     return (
       <React.Fragment>

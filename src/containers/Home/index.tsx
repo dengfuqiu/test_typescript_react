@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
-import { HomeStore } from '../../stores/home';
+import { HomeStore } from 'stores/home';
 
 export interface HomePorps {
   homeStore: HomeStore;
